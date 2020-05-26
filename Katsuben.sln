@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katsuben", "Katsuben\Katsuben.csproj", "{9D7DC1EF-CED9-408B-94DF-720E72D36AAC}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "TestKatsuben", "TestKatsuben\TestKatsuben.csproj", "{AECF6C30-0386-49F6-B6B8-60ED5110294B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7DC1EF-CED9-408B-94DF-720E72D36AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7DC1EF-CED9-408B-94DF-720E72D36AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7DC1EF-CED9-408B-94DF-720E72D36AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7DC1EF-CED9-408B-94DF-720E72D36AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECF6C30-0386-49F6-B6B8-60ED5110294B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECF6C30-0386-49F6-B6B8-60ED5110294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECF6C30-0386-49F6-B6B8-60ED5110294B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECF6C30-0386-49F6-B6B8-60ED5110294B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
