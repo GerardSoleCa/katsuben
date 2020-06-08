@@ -14,8 +14,9 @@ before_script:
 
 script:
   - dotnet build
-  - dotnet test TestKatsuben/TestKatsuben.csproj --collect:"XPlat Code Coverage"
+  - dotnet test TestKatsuben/TestKatsuben.csproj --collect:"XPlat Code Coverage" --settings TestKatsuben/coverlet.runsettings
 
 after_script:
-  - cp $(find . -iname coverage.cobertura.xml) cobertura.xml
+  - mkdir coverage
+  - cp $(find . -iname coverage.info) coverage/lcov.info
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
