@@ -15,6 +15,7 @@
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="Moq" Version="4.14.1" />
+    <PackageReference Include="Pose" Version="1.2.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,9 @@
     <Reference Include="libse, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="libse">
       <HintPath>..\Katsuben\DLLs\libse.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Media.Drm.RMCore.NETCore, Version=4.4.6222.1480, Culture=neutral, PublicKeyToken=f300afd708cefcd3">
+      <HintPath>..\..\..\Downloads\new_playready\PlayReady_Server_SDK_.Netcore_4.4.6222\RMSDK.NETCore\lib\netstandard2.0\Microsoft.Media.Drm.RMCore.NETCore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

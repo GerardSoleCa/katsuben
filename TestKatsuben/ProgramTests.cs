@@ -1,16 +1,25 @@
 ﻿using Katsuben;
+using Moq;
+using Nikse.SubtitleEdit.Core;
+using Pose;
 using Xunit;
 
-namespace TestKastuben
+namespace TestKatsuben
 {
     public class ProgramTests
     {
 
         [Theory]
-        [InlineData("-i o")]
+        [InlineData("-i a -o b")]
         public void Katsuben_FromArguments(string argument)
         {
-            Program.Main(argument.Split(' '));
+            var mock = new Mock<SubtitleConverter>();
+            Shim ctorShim = Shim.Replace(() => new SubtitleConverter(Is.A<Subtitle>())).With(() => mock.Object);
+
+            PoseContext.Isolate(() => { 
+                var mock = new Mock<SubtitleConverter>();
+                Assert.Equal(0, Program.Main(argument.Split(' ')));
+            }, ctorShim);
         }
     }
 }

@@ -16,7 +16,6 @@ namespace TestKastuben
         [InlineData("SubRip:utf-8", typeof(SubRip), "utf-8")]
         public void OutputSubtitle_FromArguments(string argument, Type type, string encoding)
         {
-            Console.WriteLine(string.Join(" ", Encoding.GetEncodings().Select(p => p.Name).ToArray<string>()));
             var outputSubtitle = OutputSubtitle.FromArgument(argument);
             Assert.IsType(type, outputSubtitle.SubtitleFormat);
             Assert.Equal(Encoding.GetEncoding(encoding), outputSubtitle.Encoding);
