@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-namespace TestKastuben
+namespace TestKatsuben.Utils
 {
-    public class FileUtil
+    public static class FileUtil
     {
         public static string ResourcePath(string resource)
         {

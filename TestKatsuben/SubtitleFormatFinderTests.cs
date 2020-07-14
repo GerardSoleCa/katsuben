@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using Katsuben;
 using Nikse.SubtitleEdit.Core.SubtitleFormats;
 using Xunit;
 
-namespace TestKastuben
+namespace TestKatsuben
 {
     public class SubtitleFormatFinderTests
     {
