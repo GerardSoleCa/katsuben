@@ -1,10 +1,11 @@
 ﻿using System.IO;
 using Katsuben;
 using Nikse.SubtitleEdit.Core;
-using TestKastuben.Utils;
+using TestKatsuben.Utils;
 using Xunit;
+using FileUtil = TestKatsuben.Utils.FileUtil;
 
-namespace TestKastuben
+namespace TestKatsuben
 {
     public class SubtitleConverterTests
     {

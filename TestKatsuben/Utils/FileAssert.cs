@@ -1,11 +1,10 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using Xunit.Sdk;
 
-namespace TestKastuben.Utils
+namespace TestKatsuben.Utils
 {
-    public class FileAssert
+    public static class FileAssert
     {
         public static void Equal(string expected, string actual)
         {
@@ -25,15 +24,13 @@ namespace TestKastuben.Utils
 
         private static void EqualFileLength(string expected, string actual)
         {
-            using(var fsExpected = new FileStream(expected, FileMode.Open, FileAccess.Read))
-            using (var fsActual = new FileStream(actual, FileMode.Open, FileAccess.Read))
+            using var fsExpected = new FileStream(expected, FileMode.Open, FileAccess.Read);
+            using var fsActual = new FileStream(actual, FileMode.Open, FileAccess.Read);
+            if (fsExpected.Length != fsActual.Length)
             {
-                if (fsExpected.Length != fsActual.Length)
-                {
-                    throw new EqualException(
-                        $"{expected} content length {fsExpected.Length}",
-                        $"{actual} content length {fsActual.Length}");
-                }
+                throw new EqualException(
+                    $"{expected} content length {fsExpected.Length}",
+                    $"{actual} content length {fsActual.Length}");
             }
         }
 
@@ -43,7 +40,6 @@ namespace TestKastuben.Utils
             {
                 throw new EqualException(expected, actual);
             }
-
         }
     }
 }

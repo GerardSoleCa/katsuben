@@ -6,11 +6,10 @@ using Nikse.SubtitleEdit.Core;
 using Nikse.SubtitleEdit.Core.SubtitleFormats;
 using Xunit;
 
-namespace TestKastuben
+namespace TestKatsuben
 {
     public class SubtitleLoaderTests
     {
-
         [Theory]
         [MemberData(nameof(FilesToLoad))]
         public void SubtitleLoader_FromFileWhenExists(Type type, string filePath)
@@ -22,8 +21,13 @@ namespace TestKastuben
         public static IEnumerable<object[]> FilesToLoad =>
             new List<object[]>
             {
-                new object[] { typeof(WebVTT), Path.GetRelativePath(AppContext.BaseDirectory, Path.Join(AppContext.BaseDirectory, "assets", "sample.vtt")) },
-                new object[] { typeof(WebVTT), Path.Join(AppContext.BaseDirectory, "assets", "sample.vtt") },
+                new object[]
+                {
+                    typeof(WebVTT),
+                    Path.GetRelativePath(AppContext.BaseDirectory,
+                        Path.Join(AppContext.BaseDirectory, "assets", "sample.vtt"))
+                },
+                new object[] {typeof(WebVTT), Path.Join(AppContext.BaseDirectory, "assets", "sample.vtt")},
             };
 
         [Theory]
