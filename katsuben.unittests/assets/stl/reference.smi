@@ -1,0 +1,23 @@
+﻿<SAMI>
+<HEAD>
+<TITLE>in</TITLE>
+<SAMIParam>
+  Metrics {time:ms;}
+  Spec {MSFT:1.0;}
+</SAMIParam>
+<STYLE TYPE="text/css">
+<!--
+  P { font-family: Arial; font-weight: normal; color: white; background-color: black; text-align: center; }
+  .ENUSCC { name: English; lang: en-US ; SAMIType: CC ; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<-- Open play menu, choose Captions and Subtiles, On if available -->
+<-- Open tools menu, Security, Show local captions when present -->
+<SYNC Start=40><P Class=ENUSCC>BIG BUG BUNNY            <br>MUC E889X/01             <br>VGW001721
+<SYNC Start=80><P Class=ENUSCC>&nbsp;
+<SYNC Start=36001080><P Class=ENUSCC>This is the first subtitle.
+<SYNC Start=36003160><P Class=ENUSCC>&nbsp;
+</BODY>
+</SAMI>

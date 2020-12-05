@@ -1,0 +1,43 @@
+﻿<SAMI>
+<HEAD>
+<TITLE>in</TITLE>
+<SAMIParam>
+  Metrics {time:ms;}
+  Spec {MSFT:1.0;}
+</SAMIParam>
+<STYLE TYPE="text/css">
+<!--
+  P { font-family: Arial; font-weight: normal; color: white; background-color: black; text-align: center; }
+  .ESESCC { name: Spanish; lang: es-ES ; SAMIType: CC ; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<-- Open play menu, choose Captions and Subtiles, On if available -->
+<-- Open tools menu, Security, Show local captions when present -->
+<SYNC Start=500><P Class=ESESCC>Aprendi a me virar e você voltou
+<SYNC Start=4000><P Class=ESESCC>&nbsp;
+<SYNC Start=4100><P Class=ESESCC>do espaço sideral
+<SYNC Start=6000><P Class=ESESCC>&nbsp;
+<SYNC Start=6100><P Class=ESESCC>e agora vejo que você está aqui no baixo astral
+<SYNC Start=10500><P Class=ESESCC>&nbsp;
+<SYNC Start=10600><P Class=ESESCC>eu devia me mudar e ter tomado a sua chave
+<SYNC Start=14000><P Class=ESESCC>&nbsp;
+<SYNC Start=14100><P Class=ESESCC>se soubesse que ia voltar para mim enfernizar
+<SYNC Start=17500><P Class=ESESCC>&nbsp;
+<SYNC Start=17600><P Class=ESESCC>agora vai, sai daqui
+<SYNC Start=19500><P Class=ESESCC>&nbsp;
+<SYNC Start=19600><P Class=ESESCC>Frank!
+<SYNC Start=21500><P Class=ESESCC>&nbsp;
+<SYNC Start=21600><P Class=ESESCC>ponha a cabeça para dentro
+<SYNC Start=24100><P Class=ESESCC>&nbsp;
+<SYNC Start=24200><P Class=ESESCC>antes que eu emprense nessa janela
+<SYNC Start=26500><P Class=ESESCC>&nbsp;
+<SYNC Start=26600><P Class=ESESCC>tá legal
+<SYNC Start=29500><P Class=ESESCC>&nbsp;
+<SYNC Start=29600><P Class=ESESCC>hhmm... hhmmm... hmmm...
+<SYNC Start=33500><P Class=ESESCC>&nbsp;
+<SYNC Start=33600><P Class=ESESCC>FRANK!!!
+<SYNC Start=34000><P Class=ESESCC>&nbsp;
+</BODY>
+</SAMI>

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "dotnet-format": {
+      "version": "5.0.160201",
+      "commands": [
+        "dotnet-format"
+      ]
+    },
+    "jetbrains.resharper.globaltools": {
+      "version": "2020.2.1",
+      "commands": [
+        "jb"
+      ]
+    }
+  }
+}
+

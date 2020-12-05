@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/ns/ttml" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xml:lang="en-US" ttp:timeBase="smpte" ttp:frameRate="25" ttp:frameRateMultiplier="1 1" ttp:dropMode="nonDrop">
+  <head>
+    <styling>
+      <style tts:fontSize="100%" tts:color="white" tts:fontStyle="normal" tts:fontWeight="normal" tts:fontFamily="sansSerif" xml:id="normal" />
+      <style tts:fontSize="100%" tts:color="white" tts:fontStyle="normal" tts:fontWeight="bold" tts:fontFamily="sansSerif" xml:id="bold" />
+      <style tts:fontSize="100%" tts:color="white" tts:fontStyle="italic" tts:fontWeight="normal" tts:fontFamily="sansSerif" xml:id="italic" />
+    </styling>
+    <layout>
+      <region xml:id="top" tts:origin="0% 0%" tts:extent="100% 15%" tts:textAlign="center" tts:displayAlign="before" />
+      <region xml:id="bottom" tts:origin="0% 85%" tts:extent="100% 15%" tts:textAlign="center" tts:displayAlign="after" />
+    </layout>
+  </head>
+  <body>
+    <div>
+      <p region="bottom" begin="0.5s" end="4.0s">Aprendi a me virar e você voltou</p>
+      <p region="bottom" begin="4.1s" end="6.0s">do espaço sideral</p>
+      <p region="bottom" begin="6.1s" end="10.5s">e agora vejo que você está aqui no baixo astral</p>
+      <p region="bottom" begin="10.6s" end="14.0s">eu devia me mudar e ter tomado a sua chave</p>
+      <p region="bottom" begin="14.1s" end="17.5s">se soubesse que ia voltar para mim enfernizar</p>
+      <p region="bottom" begin="17.6s" end="19.5s">agora vai, sai daqui</p>
+      <p region="bottom" begin="19.6s" end="21.5s">Frank!</p>
+      <p region="bottom" begin="21.6s" end="24.1s">ponha a cabeça para dentro</p>
+      <p region="bottom" begin="24.2s" end="26.5s">antes que eu emprense nessa janela</p>
+      <p region="bottom" begin="26.6s" end="29.5s">tá legal</p>
+      <p region="bottom" begin="29.6s" end="33.5s">hhmm... hhmmm... hmmm...</p>
+      <p region="bottom" begin="33.6s" end="34.0s">FRANK!!!</p>
+    </div>
+  </body>
+</tt>
