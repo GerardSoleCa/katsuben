@@ -7,11 +7,13 @@
     <RootNamespace>Katsuben</RootNamespace>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TargetFramework>net5.0</TargetFramework>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="libse" Version="3.5.8" />
-    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20574.7" />
+    <PackageReference Include="libse" Version="3.6.2" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21308.1" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
   </ItemGroup>
 

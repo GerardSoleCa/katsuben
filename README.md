@@ -1,3 +1,5 @@
+![travis](https://app.travis-ci.com/GerardSoleCa/katsuben.svg?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/237f9d502add4c35d2a2/maintainability)](https://codeclimate.com/github/GerardSoleCa/katsuben/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/237f9d502add4c35d2a2/test_coverage)](https://codeclimate.com/github/GerardSoleCa/katsuben/test_coverage)
+
 # Katsuben
 
 Benshi (弁士) were Japanese performers who provided live narration for silent films (both Japanese films and Western

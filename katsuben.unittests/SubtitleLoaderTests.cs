@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using Nikse.SubtitleEdit.Core;
+using Nikse.SubtitleEdit.Core.Common;
 using Nikse.SubtitleEdit.Core.SubtitleFormats;
 using Xunit;
 
