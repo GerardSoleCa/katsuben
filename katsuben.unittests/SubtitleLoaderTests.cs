@@ -12,6 +12,7 @@ namespace Katsuben.UnitTests
         [InlineData("srt", typeof(SubRip))]
         [InlineData("stl", typeof(Ebu))]
         [InlineData("vtt", typeof(WebVTT))]
+        [InlineData("mxf", typeof(TimedText10))]
         public void SubtitleLoader_FromFileWhenExists(string extension, Type expected)
         {
             var filePath = Path.GetRelativePath(AppContext.BaseDirectory,

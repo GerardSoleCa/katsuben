@@ -24,6 +24,10 @@ namespace Katsuben.UnitTests
         [InlineData("smi", "vtt")]
         [InlineData("smi", "itt")]
         [InlineData("smi", "srt")]
+
+        [InlineData("mxf", "vtt")]
+        [InlineData("mxf", "itt")]
+        [InlineData("mxf", "srt")]
         public void SubtitleConverter(string inputExtension, string extension, string encoding = "utf-8")
         {
             var inputFilePath = Path.GetRelativePath(AppContext.BaseDirectory,
